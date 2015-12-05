@@ -24,10 +24,9 @@ app.post('/upload', function (req, res) {
             filename: req.files[0].originalname
           };
           res.end(JSON.stringify(response));
-
         }
-      })
+      });
     }
-  })
+  });
 });
 app.listen(3000);
