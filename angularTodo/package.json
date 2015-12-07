@@ -1,0 +1,20 @@
+{
+  "name": "angualrtodo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "latest",
+    "mongoose": "latest"
+  },
+  "devDependencies": {
+    "angular": "^1.4.8",
+    "apisdk": "^0.1.0",
+    "bootstrap": "^3.3.6"
+  }
+}
